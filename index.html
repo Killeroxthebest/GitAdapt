@@ -8,25 +8,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The title shown in the browser tab -->
     <title>Welcome to EpicSite</title>
+
+    <!-- SCP Foundation-style CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #d4d4d4;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header styling - dark with red accent */
+        header {
+            background-color: #0a0a0a;
+            border-bottom: 3px solid #cc0000;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: #ff6666;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            color: #999;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1a1a1a;
+            padding: 15px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: #d4d4d4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff6666;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: #242424;
+            border-left: 4px solid #cc0000;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #ff6666;
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: #b8b8b8;
+        }
+
+        /* List styling */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: #1a1a1a;
+            margin: 8px 0;
+            padding: 12px 15px;
+            border-left: 3px solid #cc0000;
+            color: #d4d4d4;
+        }
+
+        li:hover {
+            background-color: #2a2a2a;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0a0a0a;
+            border-top: 3px solid #cc0000;
+            padding: 20px;
+            text-align: center;
+            color: #999;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Page content goes here. It's empty right now. -->
-    <h1>Welcome to EpicSite</h1>
-    <p>This is a simple welcome message for your EpicSite.</p>
-    <div>
-        <h2>Get Started</h2>
-        <p>Here are some cool snacks to get you started</p>
+    <!-- Header with site title -->
+    <header>
+        <div class="header-container">
+            <h1>EPIC SITE</h1>
+            <p class="tagline">Welcome to Our World</p>
+        </div>
+    </header>
 
+    <!-- Navigation menu -->
+    <nav>
         <ul>
-            <ol>
-            <li>Chips</li>
-            <li>Pretzels</li>
-            <li>Candy</li>
-            </ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
 
-    </div>
+    <!-- Main content area -->
+    <main>
+        <!-- Welcome section -->
+        <section>
+            <h2>Welcome</h2>
+            <p>This is a simple welcome message for your EpicSite, styled with the SCP Foundation aesthetic.</p>
+            <p>Experience a professional, dark-themed design with bold red accents.</p>
+        </section>
+
+        <!-- Get Started section -->
+        <section>
+            <h2>Get Started</h2>
+            <p>Here are some cool snacks to get you started</p>
+            <ul>
+                <li>Chips</li>
+                <li>Pretzels</li>
+                <li>Candy</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 EpicSite. All rights reserved.</p>
+    </footer>
 
 </body>
 
